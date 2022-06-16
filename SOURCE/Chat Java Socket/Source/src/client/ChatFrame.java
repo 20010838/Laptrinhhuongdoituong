@@ -163,36 +163,6 @@ public class ChatFrame extends JFrame {
 		nameLabel.setToolTipText("");
 		nameLabel.setBounds(96, 10, 129, 38);
 		panel.add(nameLabel);
-//
-//		JButton btnPhone = new JButton();
-//		btnPhone.setToolTipText("voice call");
-//		btnPhone.addActionListener(new ActionListener() {
-//			@Override
-//			public void actionPerformed(ActionEvent e) {
-//				System.out.println("Voice call");
-//			}
-//		});
-
-//		btnPhone.setIcon(new ImageIcon(ChatFrame.class.getResource("/image/phone.png")));
-//		btnPhone.setBounds(403, 16, 32, 32);
-//		btnPhone.setBorder(new EmptyBorder(0, 0, 0, 0));
-//		btnPhone.setContentAreaFilled(false);
-//		panel.add(btnPhone);
-
-//		JButton btnVideo = new JButton("");
-//		btnVideo.addActionListener(new ActionListener() {
-//			@Override
-//			public void actionPerformed(ActionEvent e) {
-//				System.out.println("Video call");
-
-//			}
-//		});
-//		btnVideo.setToolTipText("video call");
-//		btnVideo.setIcon(new ImageIcon(ChatFrame.class.getResource("/image/video-camera.png")));
-//		btnVideo.setBounds(474, 16, 32, 32);
-//		btnVideo.setBorder(new EmptyBorder(0, 0, 0, 0));
-//		btnVideo.setContentAreaFilled(false);
-//		panel.add(btnVideo);
 
 		JPanel panel_6 = new JPanel();
 		txtDisplayMessage = new JTextPane();
